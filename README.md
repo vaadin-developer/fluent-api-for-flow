@@ -1,4 +1,7 @@
 # Fluent API for Flow
+[![](https://jitpack.io/v/vaadin-developer/fluent-api-for-flow.svg)](https://jitpack.io/#vaadin-developer/fluent-api-for-flow)
+[![](https://jitci.com/gh/vaadin-developer/fluent-api-for-flow/svg)](https://jitci.com/gh/vaadin-developer/fluent-api-for-flow)
+
 
 The description is available under [https://vaadin.com/tutorials/flow-java-api-fluent](https://vaadin.com/tutorials/flow-java-api-fluent)
 
