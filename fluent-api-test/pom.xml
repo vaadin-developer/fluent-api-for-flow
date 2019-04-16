@@ -39,9 +39,9 @@
       <version>00.08.00-RPM</version>
     </dependency>
     <dependency>
-      <groupId>org.rapidpm.vaadin</groupId>
+      <groupId>com.github.vaadin-developer.id-generator-for-flow</groupId>
       <artifactId>id-generator-for-flow-impl</artifactId>
-      <version>00.08.00-RPM</version>
+      <version>e61bd2a2</version>
     </dependency>
 
   </dependencies>
