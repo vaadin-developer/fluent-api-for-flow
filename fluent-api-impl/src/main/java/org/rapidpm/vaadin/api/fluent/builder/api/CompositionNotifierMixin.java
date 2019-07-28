@@ -24,7 +24,8 @@ import com.vaadin.flow.component.CompositionStartEvent;
 import com.vaadin.flow.component.CompositionUpdateEvent;
 import com.vaadin.flow.shared.Registration;
 
-public interface CompositionNotifierMixin<R extends CompositionNotifierMixin, T extends CompositionNotifier>
+public interface CompositionNotifierMixin<R extends CompositionNotifierMixin,
+    T extends CompositionNotifier>
     extends NeutralMixin<R, T> {
 
   default R addCompositionStartListener(ComponentEventListener<CompositionStartEvent> listener) {

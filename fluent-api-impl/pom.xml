@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.rapidpm.vaadin</groupId>
     <artifactId>fluent-api-for-flow</artifactId>
-    <version>00.08.01-RPM-SNAPSHOT</version>
+    <version>00.08.01-RPM</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -38,41 +38,41 @@
   <build>
     <plugins>
       <!--For Vaadin Directory deployment-->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <configuration>
-          <archive>
-            <index>true</index>
-            <manifest>
-              <addClasspath>false</addClasspath>
-              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-            </manifest>
-            <manifestEntries>
-              <Vaadin-Package-Version>${Vaadin-Package-Version}</Vaadin-Package-Version>
-            </manifestEntries>
-          </archive>
-        </configuration>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-jar-plugin</artifactId>-->
+<!--        <configuration>-->
+<!--          <archive>-->
+<!--            <index>true</index>-->
+<!--            <manifest>-->
+<!--              <addClasspath>false</addClasspath>-->
+<!--              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>-->
+<!--            </manifest>-->
+<!--            <manifestEntries>-->
+<!--              <Vaadin-Package-Version>${Vaadin-Package-Version}</Vaadin-Package-Version>-->
+<!--            </manifestEntries>-->
+<!--          </archive>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <configuration>
-          <appendAssemblyId>false</appendAssemblyId>
-          <descriptors>
-            <descriptor>assembly/assembly.xml</descriptor>
-          </descriptors>
-        </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <phase>install</phase>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-assembly-plugin</artifactId>-->
+<!--        <configuration>-->
+<!--          <appendAssemblyId>false</appendAssemblyId>-->
+<!--          <descriptors>-->
+<!--            <descriptor>assembly/assembly.xml</descriptor>-->
+<!--          </descriptors>-->
+<!--        </configuration>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <goals>-->
+<!--              <goal>single</goal>-->
+<!--            </goals>-->
+<!--            <phase>install</phase>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
     </plugins>
   </build>
 </project>
