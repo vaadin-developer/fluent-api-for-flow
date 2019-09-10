@@ -21,58 +21,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>org.rapidpm.vaadin</groupId>
-    <artifactId>fluent-api-for-flow</artifactId>
-    <version>00.08.02-RPM-SNAPSHOT</version>
+    <artifactId>fluent-api-for-flow-parent</artifactId>
+    <version>00.08.02-RPM</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>fluent-api-for-flow-impl</artifactId>
+  <artifactId>fluent-api-for-flow</artifactId>
 
-
-  <properties>
-    <!--Properties for Vaadin Directory-->
-    <Vaadin-Package-Version>1</Vaadin-Package-Version>
-    <Vaadin-Addon>${project.build.finalName}.${project.packaging}</Vaadin-Addon>
-  </properties>
-
-  <build>
-    <plugins>
-      <!--For Vaadin Directory deployment-->
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-jar-plugin</artifactId>-->
-<!--        <configuration>-->
-<!--          <archive>-->
-<!--            <index>true</index>-->
-<!--            <manifest>-->
-<!--              <addClasspath>false</addClasspath>-->
-<!--              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>-->
-<!--            </manifest>-->
-<!--            <manifestEntries>-->
-<!--              <Vaadin-Package-Version>${Vaadin-Package-Version}</Vaadin-Package-Version>-->
-<!--            </manifestEntries>-->
-<!--          </archive>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
-
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-assembly-plugin</artifactId>-->
-<!--        <configuration>-->
-<!--          <appendAssemblyId>false</appendAssemblyId>-->
-<!--          <descriptors>-->
-<!--            <descriptor>assembly/assembly.xml</descriptor>-->
-<!--          </descriptors>-->
-<!--        </configuration>-->
-<!--        <executions>-->
-<!--          <execution>-->
-<!--            <goals>-->
-<!--              <goal>single</goal>-->
-<!--            </goals>-->
-<!--            <phase>install</phase>-->
-<!--          </execution>-->
-<!--        </executions>-->
-<!--      </plugin>-->
-    </plugins>
-  </build>
 </project>

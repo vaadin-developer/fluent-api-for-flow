@@ -21,8 +21,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>org.rapidpm.vaadin</groupId>
-    <artifactId>fluent-api-for-flow</artifactId>
-    <version>00.08.02-RPM-SNAPSHOT</version>
+    <artifactId>fluent-api-for-flow-parent</artifactId>
+    <version>00.08.02-RPM</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -53,13 +53,13 @@
   <dependencies>
     <dependency>
       <groupId>org.rapidpm.vaadin</groupId>
-      <artifactId>fluent-api-for-flow-impl</artifactId>
-      <version>00.08.02-RPM-SNAPSHOT</version>
+      <artifactId>fluent-api-for-flow</artifactId>
+      <version>00.08.02-RPM</version>
     </dependency>
     <dependency>
       <groupId>org.rapidpm.vaadin</groupId>
       <artifactId>id-generator-for-flow</artifactId>
-      <version>00.09.02-RPM</version>
+      <version>00.09.03-RPM</version>
     </dependency>
 
     <!--TDD-->
