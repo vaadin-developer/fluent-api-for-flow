@@ -59,7 +59,7 @@
     <dependency>
       <groupId>org.rapidpm.vaadin</groupId>
       <artifactId>id-generator-for-flow</artifactId>
-      <version>00.09.03-RPM</version>
+      <version>00.09.04-RPM</version>
     </dependency>
 
     <!--TDD-->
